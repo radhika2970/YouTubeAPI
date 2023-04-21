@@ -1,0 +1,51 @@
+.app_container{
+  display: flex;
+  height: 100vh;
+  overflow-x:none
+}
+
+ .videoCardContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 5rem;
+}
+
+
+.video{
+  min-height: 250px;
+  height: auto;
+}
+
+.thumbnail{
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.content{
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.channel-icon{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.title{
+  width: 100%;
+  height: 40px;
+  overflow: hidden;
+}
+
+.channel-name{
+  font-size: 14px;
+  margin: 2px 0;
+  color: #979797;
+}
